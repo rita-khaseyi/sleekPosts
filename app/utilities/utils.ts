@@ -10,7 +10,7 @@ export const getPosts= async()=>{
     }
 }
 export const getUsers= async()=>{
-    const url ='api/get-users'
+    const url ='https://jsonplaceholder.typicode.com/users'
     try{
         const response = await fetch(url)
         const result = await response.json();
