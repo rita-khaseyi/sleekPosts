@@ -1,0 +1,33 @@
+
+.follow-users-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .user-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .user-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    cursor: pointer;
+    padding: 5px 10px;
+    background-color: #d84207;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    font-size: 14px;
+  }
+  
+  button:hover {
+    background-color: #8e3712;
+  }
+  

@@ -1,0 +1,91 @@
+/* style.css */
+
+.body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: url('/assests/people.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    opacity: 0.5;
+  }
+  .h2 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  
+  .h1 {
+    color: #333;
+    font-size: 25px;
+    font-weight: bolder;
+  }
+  
+  
+  
+  .container {
+    max-width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(15px);
+    text-align: center;
+  }
+  
+  .container {
+    color: #333;
+    font-size: 28px;
+  }
+  
+  .input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    color: #fff;
+    outline: none;
+  }
+  
+  .input::placeholder {
+    color: #fff;
+  }
+  
+  .button {
+    width: 100%;
+    padding: 10px;
+    background-color: #ff4400;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .button:hover {
+    background-color: #9c3009;
+  }
+  
+  .guest-login-button {
+    background-color: #ff4400;
+  }
+  
+  .h2 {
+    color: rgb(237, 237, 237);
+    font-size: 20px;
+    margin-top: 20px;
+    font-weight: 600;
+  }
+  @media (prefers-color-scheme: dark) {
+    html {
+      color-scheme: dark;
+    }
+  }
+  
