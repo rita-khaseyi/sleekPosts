@@ -28,7 +28,9 @@ const Profile: React.FC = () => {
         <Navbar/>
     <div className="profile-container">
       <div className="avatar-container">
-        <Image src="/assests/jayy.jpg" alt="User Avatar" className="avatar" />
+        <Image src="/assests/jayy.jpg" alt="User Avatar" className="avatar"
+        width={100}
+        height={100} />
       </div>
       <h1>Profile</h1>
       <div className="profile-details">
